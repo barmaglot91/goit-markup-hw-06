@@ -564,6 +564,7 @@ margin-right: 30px;
 .come-links {
     display: flex;
     flex-direction:column;
+    margin-right: 93px;
 
 
 }
@@ -804,6 +805,95 @@ margin-right: 30px;
     margin-right: 8px;
 }
 
+.button-footer {
+
+
+}
+
+.contacts-footer {
+
+}
+
+.subscribe {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+color: #FFFFFF;
+}
+
+.contact-form-email {
+
+}
+
+.button-footer {
+    display: inline-flex;
+
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 200px;
+    border: none;
+
+    align-items: center;
+    
+}
+
+.button-footer:hover,
+.button-footer:focus {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: var(--secondary-accent-color);
+}
+
+.img-send {
+    margin-left: 10px;
+}
+
+
+.contact-form-input-email {
+    background-color: var(--primary-bcg-color);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+
+}
+
+.contact-form-input-email {
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+    margin-right: 12px;
+    color: var(--primary-white-color);
+}
+
+.contact-form-input-email::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
 .backdrop {
     position: fixed;
     top: 0;
@@ -977,6 +1067,10 @@ margin-right: 30px;
     cursor: pointer;
     margin-right: 8px;
     
+}
+
+.contact-form-checkbox:focus + .contact-form-checkbox-label::before {
+    outline: 1px solid rgba(0, 0, 255, 0.5);
 }
 
 .contact-form-submit-btn {
