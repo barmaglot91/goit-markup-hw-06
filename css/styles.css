@@ -1076,6 +1076,7 @@ color: #FFFFFF;
     content: "";
     display: inline-block;
     margin-left: 10px;
+    
 }
 
 .contact-form-checkbox:focus + .contact-form-checkbox-label::before {
