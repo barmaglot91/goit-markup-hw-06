@@ -941,6 +941,11 @@ color: #FFFFFF;
     fill: var(--accent-color);
 }
 
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+    fill: var(--accent-color);
+}
+
 .form-head {
     font-family: 'Roboto';
     font-style: normal;
@@ -1050,6 +1055,7 @@ color: #FFFFFF;
     line-height: 24px;
     display: flex;
     align-items: center;
+    
 
     letter-spacing: 0.03em;
 
